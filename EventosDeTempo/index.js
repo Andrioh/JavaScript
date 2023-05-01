@@ -1,10 +1,13 @@
-function AtivarContagem(){
-    document.getElementById("Tempo").innerHTML="Contagem começou";
-    setTimeout(function (){
-        document.body.style.backgroundColor = "gray"
-    }, 5000) // Milisegundos
+function AtivarContagem() {
+    Tempo = setInterval(function () {
+        var Cronometo = document.getElementById("Tempo").innerHTML;
+        var soma = parseInt(Cronometo) + 1;
+        document.getElementById("Tempo").innerHTML = soma;
+
+        document.title = "Contando: " + soma
+    }, 1000);
 }
 
-function Desativa(){
-    document.body.style.backgroundColor = "black"
+function DesativarContagem() {
+    clearInterval(Tempo);
 }
