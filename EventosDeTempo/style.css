@@ -6,7 +6,7 @@
 
 body{
     color: white;
-    background-color: gray;
+    background-color: black;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ Div{
     height: 40vh;
     width: 40vw;
 
-    transform: translate(50%,-50%);
+    transform: translate(50%,-70%);
 }
 
 h1{
