@@ -15,7 +15,7 @@ function MsgCookie() {
 
 if (document.cookie.includes("Cookie=")) {
     MsgCookie();
-}
+};
 
 form.addEventListener("submit", function (event) {
     event.preventDefault();
