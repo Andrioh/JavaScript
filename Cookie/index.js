@@ -7,7 +7,7 @@ function MsgCookie() {
     for (const cookie of cookies) {
         const [nome, valor] = document.cookie.split("=");
         if (nome === "Cookie") {
-            msg.textContent = decodeURIComponent(valor);
+            msg.textContent = `Escrita: ${decodeURIComponent(valor)}`
             break;
         };
     };
