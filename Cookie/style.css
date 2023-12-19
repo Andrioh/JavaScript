@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222222;
+}
+
+main, form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form >*{
+    margin: 5px;
+    border-radius: 5px;
+    border: transparent;
+    padding: 5px;
+}
+
+label{
+    color: white;
+}
+
+input[type="submit"]{
+    font-weight: bold;
+    background-color: rgb(180, 180, 18);
+}
+
+#msg{
+    position: absolute;
+    color: white;
+    bottom: 20%;
+}
