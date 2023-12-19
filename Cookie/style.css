@@ -27,6 +27,7 @@ form >*{
     border-radius: 5px;
     border: transparent;
     padding: 5px;
+    transition: 1s;
 }
 
 label{
@@ -36,6 +37,11 @@ label{
 input[type="submit"]{
     font-weight: bold;
     background-color: rgb(180, 180, 18);
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 #msg{
